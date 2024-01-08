@@ -1,0 +1,97 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10%;
+}
+
+.titles {
+    color: #0000ff;
+}
+
+.description {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.description span {
+    font-size: larger;
+}
+
+.d1 {
+    display: flex;
+}
+
+.d11 {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    padding-top: 3%;
+}
+
+.d12 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 4;
+}
+
+.edfimg {
+    max-width: 85%;
+    max-height: 80%;
+    height: auto;
+    width: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.d2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.d21 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.d2111 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.d211 span {
+    text-justify: kashida;
+}
+
+.d211 {
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    max-width: 300px;
+    padding: 10px;
+    transition: transform 0.3s ease;
+}
+
+.d211:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.d211 ion-icon {
+    color: rgb(0, 0, 255);
+    font-size: 50px;
+}
+
+.links {
+    text-decoration: none;
+}
+
+.links:visited {
+    color: inherit;
+}
