@@ -10,7 +10,7 @@ Le projet a pour but de mettre à disposition une plateforme web (qui est ici en
 
 Il faut d'abord importer le répertoire sur votre machine pour se faire :
 
-`git clone git@github.com:Acovic17/EnergieDeFrance.git`
+`git clone git@github.com:janko017/OpenData-EDF.git`
 
 
 ### Back
